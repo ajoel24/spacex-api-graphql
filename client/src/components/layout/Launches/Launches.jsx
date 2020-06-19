@@ -21,7 +21,7 @@ const Launches = () => {
       <h3>Launches</h3>
       <Query query={LAUNCHES_QUERY}>
         {({ loading, error, data }) => {
-          if (loading) return <h4>Loading</h4>;
+          if (loading) return <h4>Loading . . .</h4>;
           if (error) console.error(error);
 
           return data.launches.map((launch) => (
