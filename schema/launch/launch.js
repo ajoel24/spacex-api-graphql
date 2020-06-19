@@ -7,7 +7,7 @@ const typeDefs = gql`
     mission_name: String!
     launch_year: String!
     launch_date_local: String!
-    launch_success: Boolean!
+    launch_success: Boolean
     rocket: Rocket!
   }
 
